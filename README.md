@@ -3,7 +3,7 @@ This project compares two jpeg images according to the image links provided and 
 
 Colour recognition is another advantage of this algorithm, which distinguishes images based on individual colours rather than the intensity variation. Without colour recognition a pure white and pure black image would produce a 100% match. imagecompare stealthily addresses this glitch that most other algorithms don't. 
 
-The project relies heavily on the gd library in php which makes colour differentiation possible. To avoid image distortion or false results on comparison, the projects works on similar sized images. This is done to avoid the creation and subsequent comparison of distorted new images created after resizing. 
+The project relies heavily on the gd library in php which makes colour differentiation possible. To avoid image distortion or false results on comparison, the projects works on similar sized images. This is done to avoid the creation and subsequent comparison of new distorted images created after resizing. 
 
 
 #Authors
