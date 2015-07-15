@@ -39,14 +39,15 @@
 				</div>
 			</div>
 		</div>
-
-
-		
+<div class="row ">
+<div class="col-md-12"><br><br></div>
+</div>
+	
 <div class="row ">
 <div class="col-md-12">
 					<div class="row">
-						<div class="col-md-4 jumbotron col-md-offset-4 ">	
-							<br>
+						<div class="col-md-5 jumbotron col-md-offset-4 ">	
+							
 							<h3>
 
 <?php
@@ -71,12 +72,10 @@ if(isset($_POST['link_1'])&&isset($_POST['link_2'])) {
 
  
 ?>
-<br>
+
 					</div>
 					</div>
 		</b></h3>
-<br>
-<br>
 <br>
 <div class="col-md-12">
  					<div class="row">
