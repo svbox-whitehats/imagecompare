@@ -1,5 +1,7 @@
 #imagecompare
-This project compares two jpeg images according to the image links provided and returns the comparison value on a scale from 0 to 100 (0 for completely different and 100 for exactly similar). The comparison is done pixelwise on jpeg images that are worked upon online. The pixelwise comparison eliminates the use of histograms and other packages which checks for the image intensity as a whole instead of a pixel-by-pixel approach.Colour recognition is another advantage of this algorithm, which distinguishes each colour seperately rather than the intensity variation that makes pure white image and pure black images giving as 100 % match in most of the algorithms
+This project compares two jpeg images according to the image links provided and returns the comparison value on a scale from 0 to 100 (0 for completely different and 100 for exactly similar). The comparison is done pixelwise on jpeg images that are worked upon online. The pixelwise comparison eliminates the use of histograms and other packages which checks for the image intensity as a whole instead of a pixel-by-pixel approach.
+
+Colour recognition is another advantage of this algorithm, which distinguishes images based on individual colours rather than the intensity variation. Without colour recognition a pure white and pure black image would produce a 100% match. imagecompare stealthily addresses this glitch that most other algorithms don't. 
 
 The project relies heavily on the gd library in php which makes colour differentiation plausible. To avoid image distortion or false results on comparison, the projects works on similar sized images. This is done to avoid the creation and subsequent comparison of new images created after resizing. 
 
