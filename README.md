@@ -5,7 +5,7 @@ The project relies heavily on the gd library in php which makes colour different
 
 
 #Authors
-1. Suraj Suresh <br />2. Harikrishnan R<br />3. Sachin Giridhar<br />4. Jithin Babu<br />5. Alina Benny
+1.Suraj Suresh <br />2.Harikrishnan R<br />3.Sachin Giridhar<br />4.Jithin Babu<br />5.Alina Benny
 
 #Practical Applications 
 1. To compare the signature in cheques with the signature stored during time of creation of account<br />2. Authentication of online accounts with image comparison<br />3. Home door security services 
