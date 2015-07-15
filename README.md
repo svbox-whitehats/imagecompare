@@ -1,5 +1,8 @@
 # imagecompare
-This project compares two jpeg images according to the image links that we provide and returns the comparison value in a scale from 0 to 100(0 for completely different and 100 for exactly similar).We also do not store the images offline.The project only compares images in the jpg format and the comparison is done pixelwise instead of histogram and other packages.The gd library in php is used for the working of the project.
+This project compares two jpeg images according to the image links provided and returns the comparison value on a scale from 0 to 100 (0 for completely different and 100 for exactly similar). The comparison is done pixelwise on jpeg images that are worked upon online. The pixelwise comparison eliminates the use of histograms and other packages which checks for the image intensity as a whole instead of a pixel-by-pixel approach. 
+
+The project relies heavily on the gd library in php which makes colour differentiation plausible. To avoid image distortion or false results on comparison, the projects works on similar sized images. This is done to avoid the creation and subsequent comparison of new images created after resizing. 
+
 
 #Authors
 1.Suraj Suresh
@@ -9,9 +12,9 @@ This project compares two jpeg images according to the image links that we provi
 5.Alina Benny
 
 #The practical applications 
-1.to compare the signature in cheques with the signature stored during time of creation of account
-2.authentication into online acounts with image comparison
-3.home door security services 
+1.To compare the signature in cheques with the signature stored during time of creation of account
+2.Authentication of online accounts with image comparison
+3.Home door security services 
 
 #Dependencies
 1.Apache Server
